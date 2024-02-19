@@ -14,14 +14,14 @@ public class Task01 {
         }
     }
 
-    // Todo 1: What is the output of the code?
+    // 1: What is the output of the code?
     // If num is assigned to 3, the code outputs:
     // ...
     // ...
     // ...
     // Blastoff!
 
-    // Todo 2: Modify it so that it only prints even numbers
+    // 2: Modify it so that it only prints even numbers
     public static void countDownEven(int num) {
         if (num == 0)
             System.out.println("Blastoff!");
@@ -32,7 +32,7 @@ public class Task01 {
         }
     }
 
-    // Todo 3: What's the time complexity of this code and why?
+    // 3: What's the time complexity of this code and why?
     // The time complexity is O(n) because the code takes a parameter of num (n),
     // and the code will operate n amount of times because there is a recursion
     // for the countdown method.

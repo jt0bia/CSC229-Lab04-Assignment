@@ -11,11 +11,11 @@ public class Task02 {
             return gcd(y, x % y);
     }
 
-    // Todo 1: What is the output of this code?
+    // 1: What is the output of this code?
     // For example, if x is 10, and y is 15, the output is:
     // 5
 
-    // Todo 2: Modify it to find the gcd using subtraction instead of %
+    // 2: Modify it to find the gcd using subtraction instead of %
     // To use subtraction the Euclidean algorithm can be applied
     public static int gcdSubtraction(int x, int y) {
         if (y == 0)
@@ -23,9 +23,5 @@ public class Task02 {
         else
             return gcdSubtraction(y, x - y);
     }
-
-
-
-
 
 }
